@@ -1,5 +1,6 @@
 #include "loginview.h"
 #include "ui_loginview.h"
+#include"idatabase.h"
 
 LoginView::LoginView(QWidget *parent)
     : QWidget(parent)
@@ -15,6 +16,8 @@ LoginView::~LoginView()
 
 void LoginView::on_btSingIn_clicked()
 {
+    IDatabase::getInstance();
     emit loginSuccuss();
+
 }
 
