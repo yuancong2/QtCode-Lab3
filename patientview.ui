@@ -17,7 +17,7 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="textSearch"/>
      </item>
      <item>
       <widget class="QPushButton" name="btSearch">
@@ -55,7 +55,7 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>lineEdit</tabstop>
+  <tabstop>textSearch</tabstop>
   <tabstop>tableView</tabstop>
   <tabstop>btSearch</tabstop>
   <tabstop>btAdd</tabstop>
