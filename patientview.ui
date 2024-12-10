@@ -54,6 +54,14 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>tableView</tabstop>
+  <tabstop>btSearch</tabstop>
+  <tabstop>btAdd</tabstop>
+  <tabstop>btDelete</tabstop>
+  <tabstop>btEdit</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
