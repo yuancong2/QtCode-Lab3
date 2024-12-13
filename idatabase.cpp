@@ -1,4 +1,5 @@
 #include "idatabase.h"
+#include "QModelIndex"
 
 void IDatabase::initDatabase()
 {
@@ -23,6 +24,15 @@ bool IDatabase::initPatientModel()
 
     thePatientSelection = new QItemSelectionModel(patientTabModel);
     return true;
+}
+
+int IDatabase::addNewPatient()
+{
+    patientTabModel->insertRow(patientTabModel->rowCount(),
+                               QModelIndex());
+    QModelIndex curIndex = patientTabModel->index(patientTabModel->rowCount() - 1, 1);
+
+    return curIndex.row();
 }
 
 bool IDatabase::searchPatient(QString filter)
