@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>412</width>
-    <height>230</height>
+    <width>532</width>
+    <height>257</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -191,6 +191,19 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>dbEditIDCard</tabstop>
+  <tabstop>dbDateEditDOB</tabstop>
+  <tabstop>dbSpinHeight</tabstop>
+  <tabstop>dbSpinWeight</tabstop>
+  <tabstop>dbComboSex</tabstop>
+  <tabstop>dbEditMobile</tabstop>
+  <tabstop>dbEditID</tabstop>
+  <tabstop>dbCreatedTimestamp</tabstop>
+  <tabstop>dbEditName</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
